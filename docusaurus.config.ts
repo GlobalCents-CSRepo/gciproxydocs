@@ -8,16 +8,17 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://globalcents-csrepo.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/gciproxydocs/',
+  trailingSlash: false,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'globalcents-csrepo', // Usually your GitHub org/user name.
   projectName: 'gciproxydocs', // Usually your repo name.
-  deploymentBranch: 'main',
+  deploymentBranch: 'deploy',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
