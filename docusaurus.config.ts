@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'GCIProxy',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'MicroServices for Content Server',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -15,8 +15,9 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'globalcents-csrepo', // Usually your GitHub org/user name.
+  projectName: 'gciproxydocs', // Usually your repo name.
+  deploymentBranch: 'main',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
